@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="om">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Maya Inspire — yaada kaka'umsa, barnoota fi milkaa'ina.">
+  <title>Maya Inspire | Kaka'umsa fi Milkaa'ina</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home"><span class="brand-star">✦</span><span>MAYA <strong>INSPIRE</strong></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu bani" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav" aria-label="Navigation">
+      <a href="#home">Jalqaba</a><a href="#about">Waa'ee Keenya</a><a href="#inspiration">Kaka'umsa</a><a href="#contact">Nu Quunnami</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">YAADA GAARII • JIREENYA GAARII</p>
+        <h1>MAYA <span>INSPIRE</span></h1>
+        <p class="hero-text">Yaada kee guddisi. Ofitti amani. Gara milkaa'inaatti tarkaanfadhu.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#inspiration">Kaka'umsa Dubbisi</a>
+          <a class="button button-outline" href="#about">Waa'ee Keenya</a>
+        </div>
+      </div><div class="hero-star" aria-hidden="true">✦</div>
+    </section>
+    <section class="section about" id="about">
+      <div class="section-heading"><p class="eyebrow">NU BARADHAA</p><h2>Waa'ee <span>Maya Inspire</span></h2></div>
+      <p class="about-copy">Maya Inspire bakka yaada kaka'umsa, gorsa jireenyaa, barnootaa fi milkaa'ina qooddatan dha. Kaayyoon keenya namoonni yaada gaarii horatanii tarkaanfii bu'a qabeessa akka fudhatan jajjabeessuu dha.</p>
+      <div class="feature-grid">
+        <article class="feature-card"><span class="feature-icon">✦</span><h3>Kaka'umsa</h3><p>Guyyaa guyyaan yaada haaraa fi abdii horadhu.</p></article>
+        <article class="feature-card"><span class="feature-icon">◎</span><h3>Ofitti Amanuu</h3><p>Dandeettii kee beekii, kaayyoo kee irratti hojjedhu.</p></article>
+        <article class="feature-card"><span class="feature-icon">↗</span><h3>Milkaa'ina</h3><p>Tarkaanfii xixiqqaa irraa ka'ii gara galma keetti deemi.</p></article>
+      </div>
+    </section>
+    <section class="section inspiration" id="inspiration">
+      <div class="section-heading"><p class="eyebrow">YAADA HAR'AA</p><h2>Kaka'umsa <span>Jireenyaa</span></h2></div>
+      <div class="quote-card">
+        <span class="quote-mark">“</span>
+        <blockquote>Bakka siin hin malle if hin kaayin. Gatii kee beeki, ofitti amani, nagaa sammuu kees eeggadhu.</blockquote>
+        <p class="quote-credit">— Maya Inspire</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><h3>Kaayyoo qabaadhu</h3><p>Kaayyoon ifa siif ta'a; tarkaanfiin immoo gara galma keetti si geessa.</p></article>
+        <article class="feature-card"><h3>Obsaan hojjedhu</h3><p>Milkaa'inni yeroo fi hojii gaafata. Baradhu, yaali, itti fufi.</p></article>
+        <article class="feature-card"><h3>Nagaa kee eegi</h3><p>Daangaa kee kabaji, waan siif barbaachisaa ta'eef yeroo kenni.</p></article>
+      </div>
+    </section>
+    <section class="subscribe-band"><div><p class="eyebrow">NU HORDOFAA</p><h2>Yaada gaarii waliin guddadhu</h2><p>Qabiyyee kaka'umsa haaraa yeroo yeroon daawwadhu.</p></div><a class="button button-gold" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube Ilaali</a></section>
+    <section class="section contact" id="contact">
+      <div class="section-heading"><p class="eyebrow">NUTTI DUBBADHAA</p><h2>Nu <span>Quunnami</span></h2></div>
+      <p>Unkaan kun fakkeenya qofa; ergaa hin ergitu hanga tajaajila email waliin walqabsiiftutti.</p>
+      <form id="contactForm" class="contact-form"><label for="visitorName">Maqaa kee</label><input id="visitorName" type="text" placeholder="Maqaa kee" required><label for="visitorMessage">Ergaa kee</label><textarea id="visitorMessage" rows="4" placeholder="Ergaa kee barreessi..." required></textarea><button class="button button-gold" type="submit">Ergaa Qopheessi</button><p id="formMessage" class="form-message" role="status" aria-live="polite"></p></form>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-star">✦</span><span>MAYA <strong>INSPIRE</strong></span></a><p>© <span id="year"></span> Maya Inspire. Mirgi hundi eegama.</p><a href="#home" class="back-top">Gara gubbaatti ↑</a></footer>
+</body>
+</html>
